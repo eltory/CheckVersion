@@ -37,13 +37,13 @@ android {
     }
 }
 
-publish{
-    userOrg='eltoryn7'
-    groupId='com.lsh.checkversion'
-    artifactId='check-market-version'
-    publishVersion='1.0.0'
-    repoName='maven'
-    desc='This library can be used to check application\'s market version'
+publish {
+    userOrg = 'eltoryn7'
+    groupId = 'com.lsh.checkversion'
+    artifactId = 'check-market-version'
+    publishVersion = '1.0.0'
+    repoName = 'maven'
+    desc = 'This library can be used to check application\'s market version'
 }
 
 dependencies {
@@ -52,6 +52,8 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'org.jsoup:jsoup:1.11.3'
     //implementation 'com.lsh.checkversion:check-market-version:1.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support:design:28.0.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'

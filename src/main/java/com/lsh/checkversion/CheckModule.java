@@ -84,5 +84,14 @@ public class CheckModule {
     public String getApplicationVer() {
         return this.app_version;
     }
+
+    /**
+     * User can use this method for compare both versions.
+     *
+     * @return campare market & current version .
+     */
+    public boolean isVersionSame() {
+        return this.app_version == this.market_version;
+    }
 }
 
