@@ -5,7 +5,11 @@
 
 Usage
 ====
+
 ```java
+compile 'com.lsh.checkversion:check-market-version:1.0.1'
+
+...
 CheckModule module = new CheckModule(context); // Constructor with context.
 module.getMarketVer(); // Get an application's market version.
 module.getApplicationVer(); // Get an application's package version(current version).
