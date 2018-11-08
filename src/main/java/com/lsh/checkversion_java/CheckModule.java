@@ -1,4 +1,4 @@
-package com.lsh.checkversion;
+package com.lsh.checkversion_java;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -12,7 +12,7 @@ import java.io.IOException;
 
 /**
  * @author lsh
- * @version 1.0.0 2018-11-08.
+ * @version 1.0.1 2018-11-08. Java
  * <p>
  * Getting a version of application (Market / Application Package).
  */
