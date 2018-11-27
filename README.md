@@ -15,7 +15,7 @@ dependencies{
   targetSdkVersion 28
   
   ....
-  implementation 'com.lsh.checkversion:check-market-version:{latest_version}'
+  implementation 'com.lsh.checkversion:check-market-version:x.x.x'
 }
 ```
 
